@@ -1,5 +1,5 @@
 {
-	"name": "pipeline1",
+	"name": "Copyactivity_DB_Container",
 	"properties": {
 		"activities": [
 			{
