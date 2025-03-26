@@ -1,0 +1,18 @@
+{
+	"name": "SqlServer2",
+	"properties": {
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"connectionString": {
+				"type": "AzureKeyVaultSecret",
+				"store": {
+					"referenceName": "AzureKeyVault1",
+					"type": "LinkedServiceReference"
+				},
+				"secretName": "Azure19032025AzureDB",
+				"secretVersion": "80ce4aab5d9140cb83a7cb7d47078539"
+			}
+		}
+	}
+}
